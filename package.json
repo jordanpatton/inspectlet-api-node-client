@@ -1,0 +1,21 @@
+{
+  "name": "inspectletapi",
+  "version": "0.0.1",
+  "description": "A node.js wrapper for the Inspectlet API.",
+  "author": "Jordan Patton <jordan@brandingbrand.com>",
+  "main": "./lib/inspectletapi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanpatton/inspectlet-api-node-client.git"
+  },
+  "keywords": [
+    "inspectlet",
+    "api",
+    "inspectlet api",
+    "client",
+    "client library"
+  ],
+  "dependencies": {
+    "request": "2.x.x"
+  }
+}

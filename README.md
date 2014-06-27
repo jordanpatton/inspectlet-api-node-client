@@ -1,4 +1,4 @@
 inspectlet-api-node-client
 ==========================
 
-Inspectlet API Node Client
+A node.js wrapper for the Inspectlet API.
