@@ -16,6 +16,6 @@
     "client library"
   ],
   "dependencies": {
-    "request": "2.x.x"
+    "request": "~2.36.1"
   }
 }
