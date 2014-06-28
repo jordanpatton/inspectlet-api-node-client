@@ -1,4 +1,4 @@
-var inspectletapi = require('../lib/inspectletapi.js');
+var InspectletAPI = require('../lib/inspectletapi.js');
 var config = require('./config.json');
 
 var params = {
@@ -63,7 +63,7 @@ var params = {
   }
 };
 
-var insp = new inspectletapi(config.username, config.password, false);
+var insp = new InspectletAPI(config.username, config.password, false);
 
 insp.logIn(function (logInError, logInData) {
   console.log('logged in');

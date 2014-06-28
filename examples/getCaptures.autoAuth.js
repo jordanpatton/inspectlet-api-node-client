@@ -1,4 +1,4 @@
-var inspectletapi = require('../lib/inspectletapi.js');
+var InspectletAPI = require('../lib/inspectletapi.js');
 var config = require('./config.json');
 
 var params = {
@@ -63,7 +63,7 @@ var params = {
   }
 };
 
-var insp = new inspectletapi(config.username, config.password, true);
+var insp = new InspectletAPI(config.username, config.password, true);
 
 insp.getCaptures(config.siteId, params, function (error, data) {
   console.log(data);
