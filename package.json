@@ -16,6 +16,7 @@
     "client library"
   ],
   "dependencies": {
-    "request": "~2.36.0"
+    "request": "~2.36.0",
+    "cheerio": "~0.17.0"
   }
 }
