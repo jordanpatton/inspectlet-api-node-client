@@ -16,5 +16,11 @@ Install via **git** (hosted on GitHub):
 
     var InspectletAPI = require('inspectletapi');
     var insp = new InspectletAPI('username', 'password', true);
-    insp.getSites(function (error, data) {console.log(data);});
-    insp.getCaptures(config.siteId, params, function (error, data) {console.log(data);});
+    
+    insp.getSites(function (error, data) {
+      console.log(data);
+    });
+    
+    insp.getCaptures('siteId', params, function (error, data) {
+      console.log(data);
+    });
